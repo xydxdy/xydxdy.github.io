@@ -12,9 +12,12 @@ Education
 =========
 
 * **Ph.D in Information Science and Technology**
+  
   *Vidyasirimedhi Institute of Science and Technology*
   August 2018 - Present
+
 * **B.S. in Computer Science**
+  
   *Khon Kaen University*
   August 2014 - July 2018
 
@@ -23,7 +26,6 @@ Work experience
 
 * **Poster Presentation** (11-15, July 2022)
   *EMBC 2022, Glasgow, Scotland, UK*
-
   * Presented on Towards Asynchronous Motor Imagery EEG Classification
   * Student Volunteer
 * **Mentor** (Apr 2022 – July 2022)*VISTEC, AIResearch, and Central Digital*
@@ -79,7 +81,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-  **`<sup>`\*`</sup>` equal contributions**
+  **<sup>\*</sup> equal contributions**
 
 Scholarships
 ============
