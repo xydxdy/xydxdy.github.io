@@ -6,59 +6,104 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
 {% include base_path %}
 
 Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+=========
+
+* **Ph.D in Information Science and Technology**
+  *Vidyasirimedhi Institute of Science and Technology*
+  August 2018 - Present
+* **B.S. in Computer Science**
+  *Khon Kaen University*
+  August 2014 - July 2018
 
 Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+===============
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **Poster Presentation** (11-15, July 2022)
+  *EMBC 2022, Glasgow, Scotland, UK*
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+  * Presented on Towards Asynchronous Motor Imagery EEG Classification
+  * Student Volunteer
+* **Mentor** (Apr 2022 – July 2022)*VISTEC, AIResearch, and Central Digital*
+
+  * Advised high school students to complete their AI projects
+* **Researcher** (Feb 2021 – Dec 2021)*PTTEP International Limited (Yangon branch), Myanmar*
+
+  * Developed PIG signaller detection using a deep learning approach
+* **Mentor** (Oct 2020)*SCB Challenge '15, The Siam Commercial Bank, Thailand*
+
+  * Designed lesson plans and activities for a high school students workshop
+  * Taught basic Python, wearable devices, and machine learning
+  * Followed up and advised students to complete their projects
+* **Mentor** (Nov 2019)*SCB Challenge '14, The Siam Commercial Bank, Thailand*
+
+  * Taught basic Python, BCIs, UX, and UI design for high school students
+* **Oral Presentation** (Aug 2019)*SICE Life Engineering Symposium and ECTI Biomedical Engineering, Bangkok, Thailand*
+
+  * Presented on “EEG Time-Frequency Comparison of Standing and Sitting Motor Imagery”
+  * Presented on “EMG Time-Frequency Comparison of Standing and Attempting to Stand Tasks”
+* **Oral Presentation** (Nov 2018)*Workshop in Advanced Human-Machine Interaction for Improving Quality of Life and Health, ICSEC 2018, BMEiCON 2018, Chiang Mai, Thailand*
+
+  * Presented on “Joint Data Training for Motor Imagery-EEG Classification”
+* **Researcher** (Oct 2018 – Dec 2019)*VISRA---VISTEC-PTT Robotics AI and Intelligent Solution, Thailand*
+
+  * Developed a motor imagery-based BCI system for controlling a lower-limb exoskeleton
+* **Exchange Student** (Nov 2017)*Yamaguchi University, Japan*
+
+  * Participated in the Japan-Asia Youth Exchange Program in Science (SAKURA Exchange Program in Science), Japan Science and Technology Agency (JST)
+* **Internship** (Jun 2017 – Jul 2017)*True Corporation Public Company Limited, Thailand* (True Academy Project)
+
+  * Worked on a server monitoring project at the Service Command Center
+* **Apprenticeship** (Aug 2016 – Jan 2017)*Thai Beverage Logistics Company Limited, Thailand*
+
+  * Developed a mobile application for logistic operations for truck drivers
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
+* Expert in Python, MATLAB, and Object-Oriented Programming (OOP)
+* Proficient in deep learning and machine learning tools, including TensorFlow, PyTorch, Scikit-learn, MNE, and EEGLAB
+* Strong experience with Conda, Docker, and Git for software development and deployment
+* Expertise in bio-signal processing and visualization, specifically EEG and EMG signals
+* Extensive experience with BCI tools, including g.HIAMP, g.USBAMP, OpenBCI, MUSE EEG headband, and Delsys Trigno Wireless EMG
+* In-depth experience with various EEG public datasets and state-of-the-art EEG classification models
+* Skilled in experimental setup for bio-signal recording and IRB proposal writing
+* Experienced in advising and mentoring high school, undergraduate, and doctoral students on research methodologies
 
 Publications
-======
-  <ul>{% for post in site.publications reversed %}
+============
+
+<ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+  **`<sup>`\*`</sup>` equal contributions**
+
+Scholarships
+============
+
+* Graduate study
+  - Received a fully-funded scholarship from PTT Public Company Limited and The Siam Commercial Bank
+* Undergraduate study
+  - Received a fully-funded scholarship from the Department of Computer Science, Khon Kaen University
+* High school study
+  - Received a fully-funded scholarship from Princess Chulabhorn’s Science High School Loei
+
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+  {% endfor %}</ul> -->
+
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  {% endfor %}</ul> -->
+
+<!-- Service and leadership
+======================
+
+* Currently signed in to 43 different slack teams -->

@@ -24,7 +24,7 @@ W. Saengmolee, **R. Chaisaen**, P. Autthasan, C. Rungsilp, N. Sa-Ih, D. Cheaha, 
 [[Paper]](https://ieeexplore.ieee.org/abstract/document/9695408)
 
 P. Autthasan, **R. Chaisaen<sup>\*</sup>**, T. Sudhawiyangkul, P. Rangpong, S. Kiatthaveephong, N. Dilokthanakul, G. Bhakdisongkhram, H. Phan, C. Guan, and T. Wilaiprasitporn, "**MIN2Net: End-to-End Multi-Task Learning for Subject-Independent Motor Imagery EEG Classification**," in *IEEE Transactions on Biomedical Engineering*, vol. 69, no. 6, pp. 2105-2118, June 2022.
-[[Paper]](https://ieeexplore.ieee.org/abstract/document/9658165) | [[Code]](https://github.com/IoBT-VISTEC/MIN2Net)
+[[Paper]](https://ieeexplore.ieee.org/abstract/document/9658165) | [[Code]](https://github.com/IoBT-VISTEC/MIN2Net) | [[Page]](https://min2net.github.io/)
 
 # 2021
 
