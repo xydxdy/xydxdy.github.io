@@ -12,9 +12,8 @@ Education
 =========
 
 * **Ph.D in Information Science and Technology**
-  
-  *Vidyasirimedhi Institute of Science and Technology*
-  August 2018 - Present
+  <p><i>Vidyasirimedhi Institute of Science and Technology</i></p>
+  <p>August 2018 - Present</p>
 
 * **B.S. in Computer Science**
   
