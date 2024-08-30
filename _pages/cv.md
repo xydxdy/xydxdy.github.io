@@ -56,7 +56,7 @@ Work experience
   <p><i>Workshop in Advanced Human-Machine Interaction for Improving Quality of Life and Health, ICSEC 2018, BMEiCON 2018, Chiang Mai, Thailand
   * Presented on “Joint Data Training for Motor Imagery-EEG Classification”
 * **Researcher** (Oct 2018 – Dec 2019)
-  <p><i>VISRA---VISTEC-PTT Robotics AI and Intelligent Solution, Thailand
+  <p><i>VISRA-VISTEC-PTT Robotics AI and Intelligent Solution, Thailand
   * Developed a motor imagery-based BCI system for controlling a lower-limb exoskeleton
 * **Exchange Student** (Nov 2017)
   <p><i>Yamaguchi University, Japan</i></p>
