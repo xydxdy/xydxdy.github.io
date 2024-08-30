@@ -34,7 +34,7 @@ P. Thuwajit, P. Rangpong, P. Sawangjai, P. Autthasan, **R. Chaisaen**, N. Banlue
 S. Kongwudhikunakorn, S. Kiatthaveephong, K. Thanontip, P. Leelaarporn, M. Piriyajitakonkij, T. Charoenpattarawut, P. Autthasan, **R. Chaisaen**, P. Dujada, T. Sudhawiyangkul, V. Senanarong, and T. Wilaiprasitporn, "**A Pilot Study on Visually Stimulated Cognitive Tasks for EEG-Based Dementia Recognition**," in *IEEE Transactions on Instrumentation and Measurement*, vol. 70, pp. 1-10, 2021.
 [[Paper]](https://ieeexplore.ieee.org/abstract/document/9570316)
 
-P. Leelaarporn, P. Wachiraphan, T. Kaewlee, T. Udsa, **R. Chaisaen**, T. Choksatchawathi, R. Laosirirat, P. Lakhan, P. Natnithikarat, K. Thanontip, W. Chen, S. C. Mukhopadhyay, and T. Wilaiprasitporn, "**Sensor-Driven Achieving of Smart Living: A Review**," in *IEEE Sensors Journal*, vol. 21, no. 9, pp. 10369-10391, 1 May1, 2021.
+P. Leelaarporn, P. Wachiraphan, T. Kaewlee, T. Udsa, **R. Chaisaen**, T. Choksatchawathi, R. Laosirirat, P. Lakhan, P. Natnithikarat, K. Thanontip, W. Chen, S. C. Mukhopadhyay, and T. Wilaiprasitporn, "**Sensor-Driven Achieving of Smart Living: A Review**," in *IEEE Sensors Journal*, vol. 21, no. 9, pp. 10369-10391, 1 May.1, 2021.
 [[Paper]](https://ieeexplore.ieee.org/abstract/document/9354179)
 
 
