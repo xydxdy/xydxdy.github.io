@@ -40,7 +40,7 @@ P. Leelaarporn, P. Wachiraphan, T. Kaewlee, T. Udsa, **R. Chaisaen**, T. Choksat
 **R. Chaisaen**, P. Autthasan, N. Mingchinda, P. Leelaarporn, N. Kunaseth, S. Tammajarung, P. Manoonpong, S. C. Mukhopadhyay, and T. Wilaiprasitporn, "**[Decoding EEG Rhythms During Action Observation, Motor Imagery, and Execution for Standing and Sitting](/publication/2020-06-20-sit2stand)**," in *IEEE Sensors Journal*, vol. 20, no. 22, pp. 13776-13786, 15 Nov.15, 2020.
 [[Paper]](https://ieeexplore.ieee.org/abstract/document/9130151) | [[Code]](https://github.com/IoBT-VISTEC/Decoding-EEG-during-AO-MI-ME)
 
-`<sup>`*`</sup>` equal contributions
+<p><b><sup>*</sup> equal contributions</b></p>
 
 # Conference Papers
 
