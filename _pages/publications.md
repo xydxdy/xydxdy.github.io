@@ -10,7 +10,7 @@ You can find my Google Scholar profile [here](https://scholar.google.com/citatio
 
 # 2024
 
-P. Autthasan, <p><b>R. Chaisaen<sup>*</sup></b></p>, H. Phan, M. D. Vos and T. Wilaiprasitporn, "**MixNet: Joining Force of Classical and Modern Approaches Toward the Comprehensive Pipeline in Motor Imagery EEG Classification**," in *IEEE Internet of Things Journal*, vol. 11, no. 17, pp. 28539-28554, 1 Sept.1, 2024.
+P. Autthasan, <b>R. Chaisaen<sup>*</sup></b>, H. Phan, M. D. Vos and T. Wilaiprasitporn, "**MixNet: Joining Force of Classical and Modern Approaches Toward the Comprehensive Pipeline in Motor Imagery EEG Classification**," in *IEEE Internet of Things Journal*, vol. 11, no. 17, pp. 28539-28554, 1 Sept.1, 2024.
 [Paper](https://ieeexplore.ieee.org/abstract/document/10533256) | [Code](https://github.com/Max-Phairot-A/MixNet)
 
 # 2023
@@ -23,7 +23,7 @@ J. Nukitram, W. Saengmolee, **R. Chaisaen**, P. Autthasan, N. Sengnon, J. Wungsi
 W. Saengmolee, **R. Chaisaen**, P. Autthasan, C. Rungsilp, N. Sa-Ih, D. Cheaha, E. Kumarnsit, and T. Wilaiprasitporn, "**Consumer-Grade Brain Measuring Sensor in People With Long-Term Kratom Consumption," in IEEE Sensors Journal**, vol. 22, no. 6, pp. 6088-6097, 15 March15, 2022.
 [Paper](https://ieeexplore.ieee.org/abstract/document/9695408)
 
-P. Autthasan, <p><b>R. Chaisaen<sup>*</sup></b></p>, T. Sudhawiyangkul, P. Rangpong, S. Kiatthaveephong, N. Dilokthanakul, G. Bhakdisongkhram, H. Phan, C. Guan, and T. Wilaiprasitporn, "**MIN2Net: End-to-End Multi-Task Learning for Subject-Independent Motor Imagery EEG Classification**," in *IEEE Transactions on Biomedical Engineering*, vol. 69, no. 6, pp. 2105-2118, June 2022.
+P. Autthasan, <b>R. Chaisaen<sup>*</sup></b>, T. Sudhawiyangkul, P. Rangpong, S. Kiatthaveephong, N. Dilokthanakul, G. Bhakdisongkhram, H. Phan, C. Guan, and T. Wilaiprasitporn, "**MIN2Net: End-to-End Multi-Task Learning for Subject-Independent Motor Imagery EEG Classification**," in *IEEE Transactions on Biomedical Engineering*, vol. 69, no. 6, pp. 2105-2118, June 2022.
 [Paper](https://ieeexplore.ieee.org/abstract/document/9658165) | [code](https://github.com/IoBT-VISTEC/MIN2Net)
 
 # 2021
