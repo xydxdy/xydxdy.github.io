@@ -50,36 +50,36 @@ layout: default
         {% if page.citation and page.paperurl and page.slidesurl and page.codesurl %}
           <p style="font-size: smaller">
             {{ page.citation }}<br />
-            <a href="{{ page.paperurl }}">Paper</a> | 
-            <a href="{{ page.slidesurl }}">Slides</a> | 
-            <a href="{{ page.codesurl }}">Code</a>
+            <a href="{{ page.paperurl }}">[Paper]</a> | 
+            <a href="{{ page.slidesurl }}">[Slides]</a> | 
+            <a href="{{ page.codesurl }}">[Code]</a>
           </p>
         {% elsif page.citation and page.paperurl and page.codesurl %}
           <p style="font-size: smaller">
             {{ page.citation }}<br />
-            <a href="{{ page.paperurl }}">Paper</a> | 
-            <a href="{{ page.codesurl }}">Code</a>
+            <a href="{{ page.paperurl }}">[Paper]</a> | 
+            <a href="{{ page.codesurl }}">[Code]</a>
           </p>
         {% elsif page.citation and page.slidesurl and page.codesurl %}
           <p style="font-size: smaller">
             {{ page.citation }}<br />
-            <a href="{{ page.slidesurl }}">Slides</a> | 
-            <a href="{{ page.codesurl }}">Code</a>
+            <a href="{{ page.slidesurl }}">[Slides]</a> | 
+            <a href="{{ page.codesurl }}">[Code]</a>
           </p>
         {% elsif page.citation and page.codesurl %}
           <p style="font-size: smaller">
             {{ page.citation }}<br />
-            <a href="{{ page.codesurl }}">Code</a>
+            <a href="{{ page.codesurl }}">[Code]</a>
           </p>
         {% elsif page.citation and page.paperurl %}
           <p style="font-size: smaller">
             {{ page.citation }}<br />
-            <a href="{{ page.paperurl }}">Paper</a>
+            <a href="{{ page.paperurl }}">[Paper]</a>
           </p>
         {% elsif page.citation and page.slidesurl %}
           <p style="font-size: smaller">
             {{ page.citation }}<br />
-            <a href="{{ page.slidesurl }}">Slides</a>
+            <a href="{{ page.slidesurl }}">[Slides]</a>
           </p>
         {% elsif page.citation %}
           <p style="font-size: smaller">
@@ -87,11 +87,11 @@ layout: default
           </p>
         {% elsif page.codesurl %}
           <p style="font-size: smaller">
-            <a href="{{ page.codesurl }}">Code</a>
+            <a href="{{ page.codesurl }}">[Code]</a>
           </p>
         {% elsif page.slidesurl %}
           <p style="font-size: smaller">
-            <a href="{{ page.slidesurl }}">Slides</a>
+            <a href="{{ page.slidesurl }}">[Slides]</a>
           </p>
         {% endif %}
       
