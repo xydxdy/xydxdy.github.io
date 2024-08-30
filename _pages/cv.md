@@ -12,6 +12,7 @@ redirect_from:
  p { margin:0 } 
 </style>
 
+
 Education
 =========
 
@@ -23,11 +24,12 @@ Education
   <p><i>Khon Kaen University</i></p>
   <p>August 2014 - July 2018</p>
 
+
 Work experience
 ===============
 
 * **Poster Presentation** (11-15, July 2022)
-  <p><i>EMBC 2022, Glasgow, Scotland, UK</p></i>
+  <p><i>EMBC 2022, Glasgow, Scotland, UK</i></p>
   * Presented on Towards Asynchronous Motor Imagery EEG Classification
   * Student Volunteer
 * **Mentor** (Apr 2022 – July 2022)
@@ -64,6 +66,7 @@ Work experience
   <p><i>Thai Beverage Logistics Company Limited, Thailand</i></p>
   * Developed a mobile application for logistic operations for truck drivers
 
+
 Skills
 ======
 
@@ -76,6 +79,7 @@ Skills
 * Skilled in experimental setup for bio-signal recording and IRB proposal writing
 * Experienced in advising and mentoring high school, undergraduate, and doctoral students on research methodologies
 
+
 Publications
 ============
 
@@ -83,7 +87,8 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-  **<sup>\*</sup> equal contributions**
+<p><b><sup>\*</sup> equal contributions</b></p>
+
 
 Scholarships
 ============
