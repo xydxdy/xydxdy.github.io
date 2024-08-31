@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Publications"
-permalink: /publications/
+permalink: /publications-2/
 author_profile: true
 ---
 You can find my Google Scholar profile [here](https://scholar.google.com/citations?hl=en&user=WZFYno0AAAAJ)
