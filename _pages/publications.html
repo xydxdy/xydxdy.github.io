@@ -12,7 +12,7 @@ author_profile: true
 {% include base_path %}
 
 <!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
+<!-- {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
@@ -25,15 +25,48 @@ author_profile: true
       {% endunless %}
         {% include archive-single.html %}
     {% endfor %}
-    <!-- {% if category[1] == category[1]%} -->
-      <!-- <p><b><sup>*</sup> equal contributions</b></p> -->
-    <!-- {% endif %} -->
   {% endfor %}
 {% else %}
   <ul>{% for post in site.publications reversed %}
     {% include archive-single.html %}
   {% endfor %}</ul>
-  <!-- <p><b><sup>*</sup> equal contributions</b></p> -->
+{% endif %} -->
+
+{% if site.publication_category %}
+  {% for category in site.publication_category %}
+      {% assign title_shown = false %}
+      {% assign current_year = "" %}
+      {% for post in site.publications reversed %}
+        {% if post.category != category[0] %}
+          {% continue %}
+        {% endif %}
+        {% assign post_year = post.date | default: "1900-01-01" | date: "%Y" %}
+        {% unless title_shown %}
+          <h2>{{ category[1].title }}</h2><hr />
+          <ul>
+          {% assign title_shown = true %}
+        {% endunless %}
+        
+        {% if post_year != current_year %}
+          {% if current_year != "" %}
+            </ul>
+          {% endif %}
+          <h2>{{ post_year }}</h2>
+          <ul>
+          {% assign current_year = post_year %}
+        {% endif %}
+        
+        <li>{% include archive-single.html %}</li>
+        
+      {% endfor %}
+      {% if title_shown %}
+          </ul>
+      {% endif %}
+  {% endfor %}
+{% else %}
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}</ul>
 {% endif %}
 
 <p><b><sup>*</sup> equal contributions</b></p>
