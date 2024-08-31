@@ -50,57 +50,57 @@ layout: default
         {% if page.citation and page.paperurl and page.slidesurl and page.codesurl and page.pageurl %}
           <p style="font-size: smaller">
             {{ page.citation }}<br />
-            <a href="{{ page.paperurl }}">[Paper]</a> | 
-            <a href="{{ page.slidesurl }}">[Slides]</a> | 
-            <a href="{{ page.codesurl }}">[Code]</a> | 
-            <a href="{{ page.pageurl }}">[Page]</a>
+            <a style="color: dodgerblue;" href="{{ page.paperurl }}">[Paper]</a> | 
+            <a style="color: dodgerblue;" href="{{ page.slidesurl }}">[Slides]</a> | 
+            <a style="color: dodgerblue;" href="{{ page.codesurl }}">[Code]</a> | 
+            <a style="color: dodgerblue;" href="{{ page.pageurl }}">[Page]</a>
           </p>
         {% elsif page.citation and page.paperurl and page.codesurl and page.pageurl %}
           <p style="font-size: smaller">
             {{ page.citation }}<br />
-            <a href="{{ page.paperurl }}">[Paper]</a> | 
-            <a href="{{ page.codesurl }}">[Code]</a> | 
-            <a href="{{ page.pageurl }}">[Page]</a>
+            <a style="color: dodgerblue;" href="{{ page.paperurl }}">[Paper]</a> | 
+            <a style="color: dodgerblue;" href="{{ page.codesurl }}">[Code]</a> | 
+            <a style="color: dodgerblue;" href="{{ page.pageurl }}">[Page]</a>
           </p>
         {% elsif page.citation and page.slidesurl and page.codesurl and page.pageurl %}
           <p style="font-size: smaller">
             {{ page.citation }}<br />
-            <a href="{{ page.slidesurl }}">[Slides]</a> | 
-            <a href="{{ page.codesurl }}">[Code]</a> | 
-            <a href="{{ page.pageurl }}">[Page]</a>
+            <a style="color: dodgerblue;" href="{{ page.slidesurl }}">[Slides]</a> | 
+            <a style="color: dodgerblue;" href="{{ page.codesurl }}">[Code]</a> | 
+            <a style="color: dodgerblue;" href="{{ page.pageurl }}">[Page]</a>
           </p>
         {% elsif page.citation and page.codesurl and page.pageurl %}
           <p style="font-size: smaller">
             {{ page.citation }}<br />
-            <a href="{{ page.codesurl }}">[Code]</a> | 
-            <a href="{{ page.pageurl }}">[Page]</a>
+            <a style="color: dodgerblue;" href="{{ page.codesurl }}">[Code]</a> | 
+            <a style="color: dodgerblue;" href="{{ page.pageurl }}">[Page]</a>
           </p>
         {% elsif page.citation and page.paperurl and page.pageurl %}
           <p style="font-size: smaller">
             {{ page.citation }}<br />
-            <a href="{{ page.paperurl }}">[Paper]</a> | 
-            <a href="{{ page.pageurl }}">[Page]</a>
+            <a style="color: dodgerblue;" href="{{ page.paperurl }}">[Paper]</a> | 
+            <a style="color: dodgerblue;" href="{{ page.pageurl }}">[Page]</a>
           </p>
         {% elsif page.citation and page.slidesurl and page.pageurl %}
           <p style="font-size: smaller">
             {{ page.citation }}<br />
-            <a href="{{ page.slidesurl }}">[Slides]</a> | 
-            <a href="{{ page.pageurl }}">[Page]</a>
+            <a style="color: dodgerblue;" href="{{ page.slidesurl }}">[Slides]</a> | 
+            <a style="color: dodgerblue;" href="{{ page.pageurl }}">[Page]</a>
           </p>
         {% elsif page.citation and page.pageurl %}
           <p style="font-size: smaller">
             {{ page.citation }}<br />
-            <a href="{{ page.pageurl }}">[Page]</a>
+            <a style="color: dodgerblue;" href="{{ page.pageurl }}">[Page]</a>
           </p>
         {% elsif page.citation and page.paperurl %}
           <p style="font-size: smaller">
             {{ page.citation }}<br />
-            <a href="{{ page.paperurl }}">[Paper]</a>
+            <a style="color: dodgerblue;" href="{{ page.paperurl }}">[Paper]</a>
           </p>
         {% elsif page.citation and page.slidesurl %}
           <p style="font-size: smaller">
             {{ page.citation }}<br />
-            <a href="{{ page.slidesurl }}">[Slides]</a>
+            <a style="color: dodgerblue;" href="{{ page.slidesurl }}">[Slides]</a>
           </p>
         {% elsif page.citation %}
           <p style="font-size: smaller">
@@ -108,20 +108,20 @@ layout: default
           </p>
         {% elsif page.codesurl and page.pageurl %}
           <p style="font-size: smaller">
-            <a href="{{ page.codesurl }}">[Code]</a> | 
-            <a href="{{ page.pageurl }}">[Page]</a>
+            <a style="color: dodgerblue;" href="{{ page.codesurl }}">[Code]</a> | 
+            <a style="color: dodgerblue;" href="{{ page.pageurl }}">[Page]</a>
           </p>
         {% elsif page.codesurl %}
           <p style="font-size: smaller">
-            <a href="{{ page.codesurl }}">[Code]</a>
+            <a style="color: dodgerblue;" href="{{ page.codesurl }}">[Code]</a>
           </p>
         {% elsif page.slidesurl %}
           <p style="font-size: smaller">
-            <a href="{{ page.slidesurl }}">[Slides]</a>
+            <a style="color: dodgerblue;" href="{{ page.slidesurl }}">[Slides]</a>
           </p>
         {% elsif page.pageurl %}
           <p style="font-size: smaller">
-            <a href="{{ page.pageurl }}">[Page]</a>
+            <a style="color: dodgerblue;" href="{{ page.pageurl }}">[Page]</a>
           </p>
         {% endif %}
 
