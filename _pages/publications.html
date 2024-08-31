@@ -25,9 +25,9 @@ author_profile: true
       {% endunless %}
         {% include archive-single.html %}
     {% endfor %}
-    {% if category == category[1]%}
-      <p><b><sup>*</sup> equal contributions</b></p>
-    {% endif %}
+    <!-- {% if category[1] == category[1]%} -->
+      <!-- <p><b><sup>*</sup> equal contributions</b></p> -->
+    <!-- {% endif %} -->
   {% endfor %}
 {% else %}
   <ul>{% for post in site.publications reversed %}
@@ -36,5 +36,4 @@ author_profile: true
   <!-- <p><b><sup>*</sup> equal contributions</b></p> -->
 {% endif %}
 
-
-
+<p><b><sup>*</sup> equal contributions</b></p>
