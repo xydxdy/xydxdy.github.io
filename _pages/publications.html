@@ -43,16 +43,15 @@ author_profile: true
         {% assign post_year = post.date | default: "1900-01-01" | date: "%Y" %}
         {% unless title_shown %}
           <h2>{{ category[1].title }}</h2><hr />
-          <ul>
           {% assign title_shown = true %}
         {% endunless %}
         
         {% if post_year != current_year %}
           {% if current_year != "" %}
-            </ul>
+            </ul> <!-- Close the previous year's list -->
           {% endif %}
           <h2>{{ post_year }}</h2>
-          <ul>
+          <ul> <!-- Open a new list for the new year -->
           {% assign current_year = post_year %}
         {% endif %}
         
@@ -60,13 +59,14 @@ author_profile: true
         
       {% endfor %}
       {% if title_shown %}
-          </ul>
+          </ul> <!-- Close the last year's list for this category -->
       {% endif %}
   {% endfor %}
 {% else %}
   <ul>{% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    <li>{% include archive-single.html %}</li>
   {% endfor %}</ul>
 {% endif %}
 
 <p><b><sup>*</sup> equal contributions</b></p>
+
