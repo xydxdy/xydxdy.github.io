@@ -8,6 +8,7 @@ date: 2021-10-14
 venue: 'IEEE Transactions on Instrumentation and Measurement'
 # slidesurl: 'https://...'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/9570316'
+preprinturl: 'https://arxiv.org/pdf/2103.03854'
 # codesurl: 'https://github.com/xydxdy'
 citation: 'S. Kongwudhikunakorn, S. Kiatthaveephong, K. Thanontip, P. Leelaarporn, M. Piriyajitakonkij, T. Charoenpattarawut, P. Autthasan, <b>R. Chaisaen,</b> P. Dujada, T. Sudhawiyangkul, V. Senanarong, and T. Wilaiprasitporn, &quot;<b>A Pilot Study on Visually Stimulated Cognitive Tasks for EEG-Based Dementia Recognition,</b>&quot; in <i>IEEE Transactions on Instrumentation and Measurement,</i> vol. 70, pp. 1-10, 2021.'
 ---

@@ -59,6 +59,14 @@ layout: default
           </a>
         {% endif %}
 
+        {% if page.preprinturl %}
+          <a style="text-decoration:none;" href="{{ page.preprinturl }}" target="_blank">
+            <button class="pdf-button">
+              <i class="fas fa-file-pdf"></i> Preprint
+            </button>
+          </a>
+        {% endif %}
+
         {% if page.slidesurl %}
           <a style="text-decoration:none;" href="{{ page.slidesurl }}" target="_blank">
             <button class="slides-button">

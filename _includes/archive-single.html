@@ -73,6 +73,14 @@
       </a>
     {% endif %}
 
+    {% if post.preprinturl %}
+      <a style="text-decoration:none;" href="{{ post.preprinturl }}" target="_blank">
+        <button class="pdf-button">
+          <i class="fas fa-file-pdf"></i> Preprint
+        </button>
+      </a>
+    {% endif %}
+
     {% if post.slidesurl %}
       <a style="text-decoration:none;" href="{{ post.slidesurl }}" target="_blank">
         <button class="slides-button">
