@@ -14,9 +14,8 @@ redirect_from:
 
 <br>
 
-Education
-=========
-
+## Education
+<hr/>
 * **Ph.D in Information Science and Technology**
   <p><i>Vidyasirimedhi Institute of Science and Technology</i></p>
   <p>August 2018 - Present</p>
@@ -27,9 +26,8 @@ Education
 
 <br>
 
-Work experience
-===============
-
+## Work experience
+<hr/>
 * **Poster Presentation** (11-15, July 2022)
   <p><i>EMBC 2022, Glasgow, Scotland, UK</i></p>
   * Presented on Towards Asynchronous Motor Imagery EEG Classification
@@ -70,9 +68,7 @@ Work experience
 
 <br>
 
-Skills
-======
-
+## Skills
 * Expert in Python, MATLAB, and Object-Oriented Programming (OOP)
 * Proficient in deep learning and machine learning tools, including TensorFlow, PyTorch, Scikit-learn, MNE, and EEGLAB
 * Strong experience with Conda, Docker, and Git for software development and deployment
@@ -84,9 +80,8 @@ Skills
 
 <br>
 
-Publications
-============
-
+## Publications 
+<hr/>
 <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
@@ -95,9 +90,8 @@ Publications
 
 <br>
 
-Scholarships
-============
-
+## Scholarships
+<hr/>
 * Graduate study
   - Received a fully-funded scholarship from PTT Public Company Limited and The Siam Commercial Bank
 * Undergraduate study

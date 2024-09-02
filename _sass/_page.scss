@@ -399,3 +399,32 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/*
+   Badge
+   ========================================================================== */  
+
+$badge-padding: 4px 8px;
+$badge-background-color: #c91f1f; /* Red color */
+$badge-text-color: white;
+$badge-border-radius: 12px;
+$badge-font-size: 12px;
+$badge-font-weight: bold;
+
+.badge {
+  display: inline-block;
+  padding: $badge-padding;
+  background-color: $badge-background-color;
+  color: $badge-text-color;
+  border-radius: $badge-border-radius;
+  font-size: $badge-font-size;
+  font-weight: $badge-font-weight;
+  text-align: center;
+  line-height: 1;
+}
+
+.badge.new {
+  background-color: #c91f1f; /* Red color */; /* Red for the 'New' badge */
+  color: white;
+}
+
