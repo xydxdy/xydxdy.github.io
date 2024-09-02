@@ -243,3 +243,152 @@
     }
   }
 }
+
+
+/*
+   class button icon for the archive page
+   ========================================================================== */
+
+
+   .pdf-button {
+    display: inline-block;
+    background-color: #8B0000; /* Dark red color */
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .pdf-button i {
+    margin-right: 5px; /* Spacing between icon and text */
+    font-size: 16px;
+  }
+  
+  .pdf-button:hover {
+    background-color: #B22222; /* Slightly lighter red on hover */
+    color: white;
+  }
+  
+  .pdf-button:focus {
+    outline: none; /* Remove the focus outline */
+  }
+  
+  .pdf-button:active {
+    background-color: #7F0000; /* Darker red when active */
+  }
+  
+  /* github button */
+  .github-button {
+    display: inline-block;
+    background-color: #333; /* GitHub-like dark background */
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .github-button i {
+    margin-right: 5px; /* Spacing between icon and text */
+    font-size: 16px;
+  }
+  
+  .github-button:hover {
+    background-color: #444; /* Slightly lighter dark background on hover */
+    color: white;
+  }
+  
+  .github-button:focus {
+    outline: none; /* Remove the focus outline */
+  }
+  
+  .github-button:active {
+    background-color: #222; /* Even darker background when active */
+  }
+  
+  /* page button */
+  .page-button {
+    display: inline-block;
+    background-color: #2196F3; /* Blue background color */
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .page-button i {
+    vertical-align: middle;
+    margin-right: 5px; /* Spacing between icon and text */
+    font-size: 16px; /* Adjust the size of the icon */
+  }
+  
+  .page-button:hover {
+    background-color: #1976D2; /* Darker blue on hover */
+    color: white;
+  }
+  
+  .page-button:focus {
+    outline: none; /* Remove the focus outline */
+  }
+  
+  .page-button:active {
+    background-color: #1565C0; /* Even darker blue when active */
+  }
+  
+  /* slides button */
+  .slides-button {
+    display: inline-block;
+    background-color: #fdbd1b; /* Yellow background color */
+    color: black; /* Black text color for contrast */
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .slides-button i {
+    vertical-align: middle;
+    margin-right: 5px; /* Spacing between icon and text */
+    font-size: 16px; /* Adjust the size of the icon */
+  }
+  
+  .slides-button:hover {
+    background-color: #faca51; /* Slightly brighter yellow on hover */
+    color: black;
+  }
+  
+  .slides-button:focus {
+    outline: none; /* Remove the focus outline */
+  }
+  
+  .slides-button:active {
+    background-color: #ffcd4d; /* Even darker yellow when active */
+  }
+  
+  

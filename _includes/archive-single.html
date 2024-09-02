@@ -60,94 +60,42 @@
         <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
       {% endif %}
     {% endif %}
+
+    {% if post.citation%}
+      <p style="margin-top: -0.05em; margin-bottom: -0.5em;">{{ post.citation }}<p>
+    {% endif %}
     
-    {% if post.citation and post.paperurl and post.slidesurl and post.codesurl and post.pageurl %}
-      <p>
-        {{ post.citation }}<br />
-        <a style="color: dodgerblue;" href="{{ post.paperurl }}">[Paper]</a> | 
-        <a style="color: dodgerblue;" href="{{ post.slidesurl }}">[Slides]</a> | 
-        <a style="color: dodgerblue;" href="{{ post.codesurl }}">[Code]</a> | 
-        <a style="color: dodgerblue;" href="{{ post.pageurl }}">[Page]</a>
-      </p>
-    {% elsif post.citation and post.paperurl and post.codesurl and post.pageurl %}
-      <p>
-        {{ post.citation }}<br />
-        <a style="color: dodgerblue;" href="{{ post.paperurl }}">[Paper]</a> | 
-        <a style="color: dodgerblue;" href="{{ post.codesurl }}">[Code]</a> | 
-        <a style="color: dodgerblue;" href="{{ post.pageurl }}">[Page]</a>
-      </p>
-    {% elsif post.citation and post.slidesurl and post.codesurl and post.pageurl %}
-      <p>
-        {{ post.citation }}<br />
-        <a style="color: dodgerblue;" href="{{ post.slidesurl }}">[Slides]</a> | 
-        <a style="color: dodgerblue;" href="{{ post.codesurl }}">[Code]</a> | 
-        <a style="color: dodgerblue;" href="{{ post.pageurl }}">[Page]</a>
-      </p>
-    {% elsif post.citation and post.paperurl and post.pageurl %}
-      <p>
-        {{ post.citation }}<br />
-        <a style="color: dodgerblue;" href="{{ post.paperurl }}">[Paper]</a> | 
-        <a style="color: dodgerblue;" href="{{ post.pageurl }}">[Page]</a>
-      </p>
-    {% elsif post.citation and post.slidesurl and post.pageurl %}
-      <p>
-        {{ post.citation }}<br />
-        <a style="color: dodgerblue;" href="{{ post.slidesurl }}">[Slides]</a> | 
-        <a style="color: dodgerblue;" href="{{ post.pageurl }}">[Page]</a>
-      </p>
-    {% elsif post.citation and post.codesurl and post.pageurl %}
-      <p>
-        {{ post.citation }}<br />
-        <a style="color: dodgerblue;" href="{{ post.codesurl }}">[Code]</a> | 
-        <a style="color: dodgerblue;" href="{{ post.pageurl }}">[Page]</a>
-      </p>
-    {% elsif post.citation and post.pageurl %}
-      <p>
-        {{ post.citation }}<br />
-        <a style="color: dodgerblue;" href="{{ post.pageurl }}">[Page]</a>
-      </p>
-    {% elsif post.citation and post.paperurl %}
-      <p>
-        {{ post.citation }}<br />
-        <a style="color: dodgerblue;" href="{{ post.paperurl }}">[Paper]</a>
-      </p>
-    {% elsif post.citation and post.slidesurl %}
-      <p>
-        {{ post.citation }}<br />
-        <a style="color: dodgerblue;" href="{{ post.slidesurl }}">[Slides]</a>
-      </p>
-    {% elsif post.citation and post.codesurl %}
-      <p>
-        {{ post.citation }}<br />
-        <a style="color: dodgerblue;" href="{{ post.codesurl }}">[Code]</a>
-      </p>
-    {% elsif post.citation %}
-      <p>
-        {{ post.citation }}
-      </p>
-    {% elsif post.paperurl and post.pageurl %}
-      <p>
-        <a style="color: dodgerblue;" href="{{ post.paperurl }}">[Paper]</a> | 
-        <a style="color: dodgerblue;" href="{{ post.pageurl }}">[Page]</a>
-      </p>
-    {% elsif post.paperurl %}
-      <p>
-        <a style="color: dodgerblue;" href="{{ post.paperurl }}">[Paper]</a>
-      </p>
-    {% elsif post.slidesurl %}
-      <p>
-        <a style="color: dodgerblue;" href="{{ post.slidesurl }}">[Slides]</a>
-      </p>
-    {% elsif post.codesurl %}
-      <p>
-        <a style="color: dodgerblue;" href="{{ post.codesurl }}">[Code]</a>
-      </p>
-    {% elsif post.pageurl %}
-      <p>
-        <a style="color: dodgerblue;" href="{{ post.pageurl }}">[Page]</a>
-      </p>
+    {% if post.paperurl %}
+      <a style="text-decoration:none;" href="{{ post.paperurl }}" target="_blank">
+        <button class="pdf-button">
+          <i class="fas fa-file-pdf"></i> PDF
+        </button>
+      </a>
     {% endif %}
 
+    {% if post.slidesurl %}
+      <a style="text-decoration:none;" href="{{ post.slidesurl }}" target="_blank">
+        <button class="slides-button">
+          <i class="fas fa-file-powerpoint"></i> Slides
+        </button>
+      </a>
+    {% endif %}
+
+    {% if post.codesurl %}
+      <a style="text-decoration:none;" href="{{ post.codeurl }}" target="_blank">
+        <button class="github-button">
+          <i class="fab fa-github-square"></i> Code
+        </button>
+      </a>
+    {% endif %}
+    
+    {% if post.pageurl %}
+      <a style="text-decoration:none;" href="{{ post.pageurl }}" target="_blank">
+        <button class="page-button">
+          <i class="fas fa-globe"></i> Page
+        </button>
+      </a>
+    {% endif %}
 
 
   </article>
