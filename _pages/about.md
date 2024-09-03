@@ -10,11 +10,11 @@ I am currently working toward the Ph.D. degree in information science and techno
 
 <br>
 
-
 ## News
+
 <ul>
 <li><b>17 May 2024</b> <span class="badge new">New</span> <a href="https://ieeexplore.ieee.org/document/10533256" target="_blank">MixNet</a> accepted in IEEE Internet of Things Journal (IoT-J).</li>
-<li><b>11-15 July 2022</b> <span class="badge new">New</span> presented a poster at <a href="https://embc.embs.org/2022/" target="_blank">EMBC 2022</a> Glasgow, Scotland, UK</li>
+<li><b>11-15 July 2022</b> <span class="badge new">New</span> presented a poster at <a href="https://embc.embs.org/2022/" target="_blank">EMBC 2022</a> Glasgow, Scotland, UK.</li>
 <li><b>21 Dec 2021</b> <a href="https://ieeexplore.ieee.org/document/9658165" target="_blank">MIN2Net</a> accepted IEEE in Transactions on Biomedical Engineering (TBME).</li>
 <li><b>30 June 2020</b> <a href="https://ieeexplore.ieee.org/abstract/document/9130151" target="_blank">The paper</a> accepted in IEEE Sensors Journal.</li>
 </ul>

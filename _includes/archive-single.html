@@ -35,7 +35,7 @@
     </h3>
     
     {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+      <p class="page__meta"><i class="fas fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
     <!-- {% if post.collection == 'teaching' %}
@@ -62,7 +62,7 @@
     {% endif %}
 
     {% if post.citation%}
-      <p style="margin-top: -0.05em; margin-bottom: -0.5em;">{{ post.citation }}<p>
+      <p class="citation">{{ post.citation }}<p>
     {% endif %}
     
     {% if post.paperurl %}
@@ -89,7 +89,7 @@
       </a>
     {% endif %}
 
-    {% if post.codesurl %}
+    {% if post.codeurl %}
       <a style="text-decoration:none;" href="{{ post.codeurl }}" target="_blank">
         <button class="github-button">
           <i class="fab fa-github-square"></i> Code

@@ -23,7 +23,7 @@ author_profile: true
       {% assign post_year = post.date | default: "1900-01-01" | date: "%Y" %}
       
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2><i class="fas fa-book"></i>{{ category[1].title }}</h2><hr>
         {% assign title_shown = true %}
       {% endunless %}
       

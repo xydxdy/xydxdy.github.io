@@ -14,17 +14,17 @@
     @include prefix(0.5 of 12);
   }
 
-  a {
-    text-decoration: underline;
+  // a {
+  //   text-decoration: underline;
 
-    &:hover {
-      text-decoration: underline;
+  //   &:hover {
+  //     text-decoration: underline;
 
-      img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
-      }
-    }
-  }
+  //     // img {
+  //     //   box-shadow: 0 0 10px rgba(#000, 0.25);
+  //     // }
+  //   }
+  // }
 }
 
 .archive__subtitle {
@@ -278,6 +278,8 @@ $icon-font-size: 16px;
 
   &:hover {
     color: white;
+    transform: scale(1.01);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
 
   &:focus {
@@ -313,7 +315,7 @@ $icon-font-size: 16px;
 
 .page-button {
   @extend .button;
-  background-color: #2196F3; /* Blue background color */
+  background-color: #1565C0; /* Blue background color */
 
   i {
     vertical-align: middle;
@@ -324,7 +326,7 @@ $icon-font-size: 16px;
   }
 
   &:active {
-    background-color: #1565C0; /* Even darker blue when active */
+    background-color: #2196F3; /* Even brighter blue when active */
   }
 }
 
@@ -348,3 +350,48 @@ $icon-font-size: 16px;
 }
 
 
+.citation {
+  font-size: 0.85em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/*
+
+  ==========================================================================
+  Github
+  ==========================================================================
+
+*/
+
+a img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid #ddd; /* Added border to the image */
+}
+
+a img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+  margin-bottom: 1em;
+}
+
+.stats-container, .pinned-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.pinned-container {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+}
