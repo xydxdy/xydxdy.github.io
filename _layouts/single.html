@@ -43,7 +43,51 @@ layout: default
         {% endif %}    
         </header>
       {% endunless %}
-      <br>
+
+      <div style="margin-top: 0.5em; margin-bottom: 1.5em;">
+
+      {% if page.paperurl %}
+        <a style="text-decoration:none;" href="{{ page.paperurl }}" target="_blank">
+          <button class="pdf-button">
+            <i class="fas fa-file-pdf"></i> PDF
+          </button>
+        </a>
+      {% endif %}
+
+      {% if page.preprinturl %}
+        <a style="text-decoration:none;" href="{{ page.preprinturl }}" target="_blank">
+          <button class="pdf-button">
+            <i class="fas fa-file-pdf"></i> Preprint
+          </button>
+        </a>
+      {% endif %}
+
+      {% if page.slidesurl %}
+        <a style="text-decoration:none;" href="{{ page.slidesurl }}" target="_blank">
+          <button class="slides-button">
+            <i class="fas fa-file-powerpoint"></i> Slides
+          </button>
+        </a>
+      {% endif %}
+
+      {% if page.codeurl %}
+        <a style="text-decoration:none;" href="{{ page.codeurl }}" target="_blank">
+          <button class="github-button">
+            <i class="fab fa-github-square"></i> Code
+          </button>
+        </a>
+      {% endif %}
+      
+      {% if page.pageurl %}
+        <a style="text-decoration:none;" href="{{ page.pageurl }}" target="_blank">
+          <button class="page-button">
+            <i class="fas fa-globe"></i> Page
+          </button>
+        </a>
+      {% endif %}
+
+      </div>
+
       <section class="page__content" itemprop="text">
         {{ content }}
 
@@ -51,45 +95,6 @@ layout: default
           <p class="citation">{{ page.citation }}<p>
         {% endif %}
         
-        {% if page.paperurl %}
-          <a style="text-decoration:none;" href="{{ page.paperurl }}" target="_blank">
-            <button class="pdf-button">
-              <i class="fas fa-file-pdf"></i> PDF
-            </button>
-          </a>
-        {% endif %}
-
-        {% if page.preprinturl %}
-          <a style="text-decoration:none;" href="{{ page.preprinturl }}" target="_blank">
-            <button class="pdf-button">
-              <i class="fas fa-file-pdf"></i> Preprint
-            </button>
-          </a>
-        {% endif %}
-
-        {% if page.slidesurl %}
-          <a style="text-decoration:none;" href="{{ page.slidesurl }}" target="_blank">
-            <button class="slides-button">
-              <i class="fas fa-file-powerpoint"></i> Slides
-            </button>
-          </a>
-        {% endif %}
-
-        {% if page.codeurl %}
-          <a style="text-decoration:none;" href="{{ page.codeurl }}" target="_blank">
-            <button class="github-button">
-              <i class="fab fa-github-square"></i> Code
-            </button>
-          </a>
-        {% endif %}
-        
-        {% if page.pageurl %}
-          <a style="text-decoration:none;" href="{{ page.pageurl }}" target="_blank">
-            <button class="page-button">
-              <i class="fas fa-globe"></i> Page
-            </button>
-          </a>
-        {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>

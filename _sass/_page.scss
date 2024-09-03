@@ -73,7 +73,7 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
       text-decoration: underline;
@@ -426,5 +426,40 @@ $badge-font-weight: bold;
 .badge.new {
   background-color: #c91f1f; /* Red color */; /* Red for the 'New' badge */
   color: white;
+}
+
+.news-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.news-list li {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 5px solid #4A90E2;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and box-shadow */
+}
+
+.news-list li:hover {
+  background-color: #f0f8ff;
+  transform: scale(1.01); /* Slightly increase the size */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Enhance the shadow effect */
+  
+  a {
+    text-decoration: none;
+  }
+}
+
+.news-list li a {
+  text-decoration: none;
+}
+
+.news-list li b {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 5px;
+  color: #4A90E2;
 }
 

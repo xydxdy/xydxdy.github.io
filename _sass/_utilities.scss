@@ -124,6 +124,9 @@ body:hover .visually-hidden button {
   white-space: -pre-wrap;     /* Opera <7 */   
   white-space: -o-pre-wrap;   /* Opera 7 */    
   word-wrap: break-word;      /* IE */
+  a {
+    text-decoration: underline;
+  }
 }
 
 /*
