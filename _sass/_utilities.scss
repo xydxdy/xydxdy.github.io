@@ -196,6 +196,21 @@ body:hover .visually-hidden button {
   margin-right: 0.5em;
 }
 
+.icon-pad-left {
+  padding-left: 0.5em;
+  margin-left: 0.5em;
+}
+
+.icon-pad-right-sm {
+  padding-right: 0.25em;
+  margin-right: 0.25em;
+}
+
+.icon-pad-left-sm {
+  padding-left: 0.25em;
+  margin-left: 0.25em;
+}
+
 /* social icons*/
 
 .social-icons {
@@ -260,6 +275,14 @@ body:hover .visually-hidden button {
     color: $linkedin-color;
   }
 
+  .fa-google-scholar {
+    color: $google-scholar-color;
+  }
+
+  .fa-researchgate {
+    color: $researchgate-color;
+  }
+
   .fa-mastodon,
   .fa-mastodon-square {
     color: $mastodon-color;
@@ -319,6 +342,11 @@ body:hover .visually-hidden button {
   .fa-xing-square {
     color: $xing-color;
   }
+}
+
+.fa-award-color {
+  color: goldenrod;
+  font-size: larger;
 }
 
 
