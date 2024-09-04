@@ -73,7 +73,7 @@
   }
 
   a {
-    text-decoration: none;
+    text-decoration: underline;
 
     &:hover {
       text-decoration: underline;
@@ -456,9 +456,10 @@ $badge-font-weight: bold;
   text-decoration: none;
 }
 
-.news-list li b {
+.news-list-date {
   display: block;
   font-size: 1em;
+  font-weight: bold;
   margin-bottom: 5px;
   color: #4A90E2;
 }
