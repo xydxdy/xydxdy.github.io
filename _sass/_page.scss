@@ -476,3 +476,142 @@
   border-radius: 12px;
   font-size: 0.8em;
 }
+
+
+/* ==========================================================================
+   LAYOUT
+   ========================================================================== */
+
+  /* achievements */
+  .achievements-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em; /* Space between achievements */
+  }
+  
+  .achievement {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    font-size: 1em;
+    flex-grow: 1;
+  
+    p {
+      margin: 0;
+      font-style: italic;
+      color: $dark-gray;
+    }
+  
+    .date {
+      font-size: 0.875em;
+      color: $light-gray;
+      margin-top: 0.5em;
+    }
+  
+    .date i {
+      margin-right: 5px;
+    }
+  
+    .inner-content {
+      margin-top: 1em;
+      font-size: 0.9em;
+      color: #444;
+
+      p {
+        font-style: normal;
+      }
+  
+      ul {
+        list-style-type: disc;
+        margin-left: 0em;
+        margin-top: 0.5em;
+        // font-style: italic;
+  
+        li {
+          margin-bottom: 0.5em;
+        }
+      }
+    }
+  }
+  
+  .award-icon {
+    color: #f1c40f;
+    margin-left: 8px;
+    font-size: 1.2em;
+  }
+  
+  
+/* timeline */
+
+.timeline-container {
+  position: relative;
+  padding-left: 30px; /* Adjust the padding to make room for the vertical line */
+}
+
+.timeline-container::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  bottom: 0;
+  width: 2px;
+  background-color: #e0e0e0; /* Light gray for the vertical line */
+}
+
+.milestone {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.tl-content-container {
+  position: relative;
+  padding-left: 20px;
+}
+
+.tl-content-container::before {
+  content: "";
+  position: absolute;
+  left: -19px;
+  top: 10px;
+  width: 10px;
+  height: 10px;
+  background-color: #4A90E2; /* Blue milestone circle */
+  border-radius: 50%;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.tl-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.tl-content b {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+.tl-content p {
+  margin: 0;
+  color: $dark-gray;
+  font-style: italic;
+}
+
+.tl-content span {
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: $light-gray;
+}
+
+.tl-content span i {
+  margin-right: 5px;
+}

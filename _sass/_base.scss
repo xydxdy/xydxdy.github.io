@@ -172,12 +172,12 @@ hr {
 
 ul li,
 ol li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0em;
 }
 
 li ul,
 li ol {
-  margin-top: 0.5em;
+  margin-top: 0em;
 }
 
 /*
@@ -320,57 +320,4 @@ nav {
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
-}
-
-/* ==========================================================================
-   LAYOUT
-   ========================================================================== */
-  
-   .content-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 1em;
-  
-    .content {
-      font-size: 1em;
-      flex-grow: 1; 
-  
-      p {
-        margin: 0;
-        font-style: italic;
-        color: $dark-gray ;
-      }
-
-      span {
-        font-size: 0.875em;
-        color: $light-gray;
-        font-weight: 400;
-
-        i {
-          margin-right: 5px;
-        }
-
-      }
-    }
-  }
-  
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
-
-  li {
-    // margin-bottom: 1em;
-
-    ul {
-      list-style-type: disc;
-      margin-left: 1.5em;
-      margin-top: 0.25em;
-
-      li {
-        margin-bottom: 0.25em;
-      }
-    }
-  }
 }
