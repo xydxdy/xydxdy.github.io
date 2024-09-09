@@ -259,17 +259,18 @@ $icon-font-size: 16px;
 
 .button {
   display: inline-block;
-  color: white;
   padding: $button-padding;
   border-radius: $button-border-radius;
   text-decoration: none;
   font-size: $button-font-size;
   font-weight: $button-font-weight;
   margin-right: $button-margin-right;
-  border: none;
-  outline: none;
+  border: 2px solid transparent; /* Initially no visible border */
+  background-color: transparent; /* Transparent background for outline effect */
+  color: currentColor; /* Inherit the button's color */
   cursor: pointer;
   text-align: center;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
 
   i {
     margin-right: $icon-margin-right; /* Spacing between icon and text */
@@ -289,66 +290,75 @@ $icon-font-size: 16px;
 
 .pdf-button {
   @extend .button;
-  background-color: #8B0000; /* Dark red color */
+  color: #8B0000; /* Dark red color for text */
+  border-color: #8B0000; /* Outline with dark red */
 
   &:hover {
-    background-color: #B22222; /* Slightly lighter red on hover */
+    background-color: #8B0000; /* Dark red background on hover */
+    color: white;
   }
 
   &:active {
     background-color: #7F0000; /* Darker red when active */
+    border-color: #7F0000;
   }
 }
 
 .github-button {
   @extend .button;
-  background-color: #333; /* GitHub-like dark background */
+  color: #333; /* GitHub dark color for text */
+  border-color: #333; /* Outline with GitHub dark color */
 
   &:hover {
-    background-color: #444; /* Slightly lighter dark background on hover */
+    background-color: #333; /* Dark background on hover */
+    color: white;
   }
 
   &:active {
     background-color: #222; /* Even darker background when active */
+    border-color: #222;
   }
 }
 
 .page-button {
   @extend .button;
-  background-color: #1565C0; /* Blue background color */
+  color: #1565C0; /* Blue color for text */
+  border-color: #1565C0; /* Outline with blue */
 
   i {
     vertical-align: middle;
   }
 
   &:hover {
-    background-color: #1976D2; /* Darker blue on hover */
+    background-color: #1565C0; /* Blue background on hover */
+    color: white;
   }
 
   &:active {
-    background-color: #2196F3; /* Even brighter blue when active */
+    background-color: #1976D2; /* Darker blue when active */
+    border-color: #1976D2;
   }
 }
 
 .slides-button {
   @extend .button;
-  background-color: #fdbd1b; /* Yellow background color */
-  color: black; /* Black text color for contrast */
+  color: #fdbd1b; /* Yellow color for text */
+  border-color: #fdbd1b; /* Outline with yellow */
 
   i {
     vertical-align: middle;
   }
 
   &:hover {
-    background-color: #faca51; /* Slightly brighter yellow on hover */
+    background-color: #fdbd1b; /* Yellow background on hover */
     color: black;
   }
 
   &:active {
-    background-color: #ffcd4d; /* Even darker yellow when active */
+    background-color: #ffcd4d; /* Darker yellow when active */
+    border-color: #ffcd4d;
   }
 }
-
 
 .citation {
   font-size: 0.85em;
