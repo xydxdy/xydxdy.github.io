@@ -2,20 +2,25 @@
 
 {% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
 <div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+  <div class="social-icons">
+    
+    {% if site.author.linkedin %}
+        <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if site.author.researchgate %}
+      <a href="{{ site.author.researchgate }}" target="_blank"><i class="fab fa-researchgate" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if site.author.googlescholar %}
+      <a href="{{ site.author.googlescholar }}" target="_blank"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
     {% endif %}
     {% if site.author.github %}
-      <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+      <a href="http://github.com/{{ site.author.github }}" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
     {% endif %}
     {% if site.author.bitbucket %}
-      <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+      <a href="http://bitbucket.org/{{ site.author.bitbucket }}" target="_blank"><i class="fab fa-bitbucket" aria-hidden="true"></i></a>
     {% endif %}
-    {% if site.atom_feed.hide != true %}
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-    {% endif %}
-  </ul>
+
+  </div>
 </div>
 {% endif %}
 

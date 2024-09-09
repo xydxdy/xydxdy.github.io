@@ -404,80 +404,81 @@
    News
    ========================================================================== */  
 
-
-.news-container {
-  margin: 0 auto;
-}
-
-.task {
-  align-items: left;
-  margin-bottom: 15px;
-}
-
-.task-text {
-  margin-right: 10px;
-  a {
-    text-decoration: none;
+   .news-container {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 900px; /* Set max width for better readability */
+  }
+  
+  .task {
+    background-color: #f9f9f9; /* Light background for task item */
+    border: 1px solid #e0e0e0; /* Light border for task item separation */
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+    display: block; /* Block display for vertical alignment */
+  
     &:hover {
-      color: #000;
-      text-decoration: none;
+      background-color: #f1f1f1; /* Slight background change on hover */
     }
   }
-}
-
-.task-date {
-  width: fit-content;
-  font-size: 0.9em;
-  color: #999;
-  margin-right: 10px;
-  flex-grow: 1;
-  i {
-    margin-right: 5px;
+  
+  .task-date {
+    font-size: 0.9em;
+    color: #999; /* Light grey for task date */
+    margin-bottom: 5px; /* Space between date and text */
+    i {
+      margin-right: 5px;
+    }
   }
-}
+  
+  .task-text {
+    font-size: 1em; /* Increase font size for readability */
+    margin-right: 10px;
+    display: block;
+  
+    a {
+      color: #0073e6; /* Blue for link text */
+      text-decoration: none;
+      // font-weight: bold; /* Make link text bold */
+      &:hover {
+        color: #005bb5; /* Darker blue on hover */
+        text-decoration: underline; /* Underline on hover */
+      }
+    }
+  }
+  
+  .task-badge {
+    background-color: #e0e0e0;
+    color: #666;
+    padding: 2px 6px; /* Smaller padding for compact badges */
+    border-radius: 12px;
+    font-size: 0.75em; /* Smaller font size for badges */
+    margin-right: 5px; /* Space between badges */
+  }
+  
+  .cyan {
+    background-color: #00bcd4;
+    color: white;
+  }
+  
+  .red {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .yellow {
+    background-color: #f1c40f;
+    color: #333; /* Darker text for contrast */
+  }
+  
+  .grey {
+    background-color: #e0e0e0;
+    color: #666;
+  }
 
-.task-badge{
-  background-color: #e0e0e0;
-  color: #666;
-  padding: 2px 6px;
-  border-radius: 12px;
-  font-size: 0.8em;
-  margin-left: 2.5px;
-}
-
-.cyan {
-  background-color: #00bcd4;
-  color: white;
-  padding: 2px 6px;
-  border-radius: 12px;
-  font-size: 0.8em;
-}
-
-.red {
-  background-color: #e74c3c;
-  color: white;
-  padding: 2px 6px;
-  border-radius: 12px;
-  font-size: 0.8em;
-}
-
-.yellow {
-  background-color: #f1c40f;
-  color: #666;
-  padding: 2px 6px;
-  border-radius: 12px;
-  font-size: 0.8em;
-}
-
-.grey {
-  background-color: #e0e0e0;
-  color: #666;
-  padding: 2px 6px;
-  border-radius: 12px;
-  font-size: 0.8em;
-}
-
-
+  
 /* ==========================================================================
    LAYOUT
    ========================================================================== */
