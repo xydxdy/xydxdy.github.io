@@ -1,0 +1,32 @@
+[
+  {
+    "date": "March 2026",
+    "title": "Joining Stanford University as a Visiting Researcher",
+    "description": "Thrilled to announce that I'll be joining the Mignot Lab at Stanford this June. I’ll be spending six months as a Visiting Student Researcher, collaborating on cutting-edge sleep and neuro-science research.",
+    "linkText": "Visit my Stanford profile",
+    "link": "https://web.stanford.edu/~chaisaen/",
+    "target": "_blank",
+    "icon": "arrow_forward",
+    "featured": true
+  },
+  {
+    "date": "May 2025",
+    "title": "New Publication: AlphaGrad in IEEE JBHI",
+    "description": "Our paper on AlphaGrad, a novel normalized gradient descent approach for multi-loss EEG classification, has been accepted by the IEEE Journal of Biomedical and Health Informatics. This work explores more adaptive ways to handle complex motor imagery data.",
+    "linkText": "Visit the project page",
+    "link": "https://alphagrad.github.io/",
+    "target": "_blank",
+    "icon": "arrow_forward",
+    "featured": false
+  },
+  {
+    "date": "July 2022",
+    "title": "Presenting at EMBC 2022 | Glasgow",
+    "description": "Traveled to Scotland to present our poster, \"Towards Asynchronous Motor Imagery EEG Classification,\" at the 44th Annual International Conference of the IEEE Engineering in Medicine and Biology Society. A fantastic opportunity to discuss the future of real-time BCI systems.",
+    "linkText": "Visit the conference page",
+    "link": "https://embc.embs.org/2022/",
+    "target": "_blank",
+    "icon": "arrow_forward",
+    "featured": false
+  }
+]

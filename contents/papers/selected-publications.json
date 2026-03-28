@@ -1,0 +1,35 @@
+[
+  {
+    "year": "2025",
+    "title": "AlphaGrad: Normalized gradient descent for adaptive multi-loss functions in EEG-based motor imagery classification",
+    "authors": "R Chaisaen, P Autthasan, A Ditthapron, T Wilaiprasitporn",
+    "venue": "IEEE Journal of Biomedical and Health Informatics",
+    "links": [
+      { "label": "PDF", "url": "https://ieeexplore.ieee.org/abstract/document/11008918/" },
+      { "label": "WEB", "url": "https://alphagrad.github.io/" },
+      { "label": "CODE", "url": "https://github.com/xydxdy/AlphaGrad" }
+    ]
+  },
+  {
+    "year": "2024",
+    "title": "MixNet: Joining force of classical and modern approaches toward the comprehensive pipeline in motor imagery EEG classification",
+    "authors": "P Autthasan, R Chaisaen, H Phan, M De Vos, T Wilaiprasitporn",
+    "venue": "IEEE Internet of Things Journal",
+    "links": [
+      { "label": "PDF", "url": "https://ieeexplore.ieee.org/abstract/document/10533256" },
+      { "label": "WEB", "url": "https://mixnetbci.github.io/" },
+      { "label": "CODE", "url": "https://github.com/Max-Phairot-A/MixNet" }
+    ]
+  },
+  {
+    "year": "2021",
+    "title": "MIN2Net: End-to-End Multi-Task Learning for Subject-Independent Motor Imagery EEG Classification",
+    "authors": "P Autthasan, R Chaisaen, et al.",
+    "venue": "IEEE Transactions on Biomedical Engineering",
+    "links": [
+      { "label": "PDF", "url": "https://ieeexplore.ieee.org/abstract/document/9658165" },
+      { "label": "WEB", "url": "https://min2net.github.io/" },
+      { "label": "CODE", "url": "https://github.com/IoBT-VISTEC/MIN2Net" }
+    ]
+  }
+]
